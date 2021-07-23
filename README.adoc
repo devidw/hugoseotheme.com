@@ -1,1 +1,1 @@
-= Hugo SEO Theme
+= https://hugoseotheme.com[hugoseotheme.com]
