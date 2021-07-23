@@ -1,1 +1,1 @@
-= blog
+= Hugo SEO Theme
