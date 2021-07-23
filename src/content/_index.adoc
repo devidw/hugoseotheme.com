@@ -1,5 +1,13 @@
----
-// title: klslslk
----
+// ---
+// title:
+// ---
 
-fdodfoff
+You want your Hugo site to rank right on the top of Google?
+
+I have great news for you, cause you can do so.
+
+I wanted to do so too. So I created the _Hugo SEO Theme_, which is designed for high search engine rankings and ready to let your Hugo site become an supreme success.
+
+The best is, you can just drop the _Hugo SEO Theme_ to your themes directory and you are ready to rock.
+
+link:/hugo-seo-theme/[Can't wait. Take me right to the theme].

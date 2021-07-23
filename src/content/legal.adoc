@@ -1,0 +1,10 @@
+---
+title: Legal
+hidden: true
+noindex: true
+---
+
+a [at] hugoseotheme [dot] com +
+David Wolf +
+Königsberger Straße 5 +
+51545 Waldbröl

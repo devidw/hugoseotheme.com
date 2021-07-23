@@ -1,9 +1,7 @@
 ---
-title: AsciiDoc Article Title dsjs dkksd
-icons: font
-stem: latexmath
-quick-uri: https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
-description: jksdjkdsjkdsjksd
+title: AsciiDoctor Example
+description: Demonstration of the look of content written in AsciiDoc.
+noindex: true
 ---
 
 :toc:
