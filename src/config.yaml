@@ -7,8 +7,8 @@ disableKinds:  ['taxonomy', 'taxonomyTerm']
 
 menu:
   main:
-    - identifier: 'posts'
-      url:     '/posts/'
+    - identifier: 'examples'
+      url:     '/examples/'
   footer:
     - identifier: 'legal'
       url:     '/legal/'
