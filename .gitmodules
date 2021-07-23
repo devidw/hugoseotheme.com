@@ -1,6 +1,3 @@
 [submodule "src/themes/hugo-theme-component-structured-data"]
 	path = src/themes/hugo-theme-component-structured-data
 	url = https://github.com/hugoseotheme/hugo-theme-component-structured-data
-[submodule "src/themes/hugo-seo-theme"]
-	path = src/themes/hugo-seo-theme
-	url = https://github.com/hugoseotheme/hugoseotheme.com.git
