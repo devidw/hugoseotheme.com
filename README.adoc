@@ -1,3 +1,5 @@
 = https://hugoseotheme.com[hugoseotheme.com]
 
 image:https://api.netlify.com/api/v1/badges/979ca213-dcf2-40c1-aee6-66eea5e9bb54/deploy-status[link="https://app.netlify.com/sites/hugoseotheme/deploys"]
+
+https://ko-fi.com/s/bd31274a6f[Get your very own copy of the Hugo SEO Theme now.]
