@@ -2,6 +2,8 @@
 title: SEO Theme for Hugo
 ---
 
+== note: still under construction 
+
 You want your Hugo site to rank right on the top of Google?
 
 I have great news for you, cause you can do so.
