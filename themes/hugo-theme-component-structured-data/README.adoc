@@ -1,0 +1,50 @@
+= Hugo Theme Component for Structured Data
+
+The Structured Data Theme Component is a submodule, which is designed and maintained for the https://hugoseotheme.com[Hugo SEO Theme]. You can use it on your own theme by following the instructions below. Also make sure to check out the https://gohugo.io/hugo-modules/theme-components/[docs about Theme Components].
+
+== Setup
+=== 1. Clone this theme component to your themes directory
+[source, sh]
+----
+git submodule add https://github.com/orgbiz/hugo-theme-component-structured-data
+----
+
+=== 2. Add this theme component to your list of themes inside your config-file
+[source, toml]
+----
+theme = ["hugo-seo-theme", "hugo-theme-component-structured-data"]
+----
+
+=== 3. Add the following statement in the layout file where your `<head></head>` lives:
+[source, go]
+----
+{{ partial "structureddata/include.html" . }}
+----
+
+
+== Usage
+
+=== Configuration
+|===
+| Required
+
+a|
+* `BaseURL`
+* `LanguageCode`
+|===
+
+
+=== Frontmatter
+
+|===
+| Required | Optional
+
+a|
+* `date`
+* `title`
+
+a|
+* `author`
+* `description`
+* `lastmod`
+|===

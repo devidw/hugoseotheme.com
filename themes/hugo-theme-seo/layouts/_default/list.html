@@ -1,0 +1,22 @@
+{{ define "header" }}
+{{.Content}}
+{{ end }}
+
+{{ define "main" }}
+<div class="content">
+  <dl>
+    {{ range .Pages }}
+    <dt>
+      <h2>
+        <a href="{{.Permalink}}">
+          {{.Title}}
+        </a>
+      </h2>
+    </dt>
+    {{ if .Description }}
+    <dd>{{ .Description }}</dd>
+    {{ end }}
+    {{ end }}
+  </dl>
+</div>
+{{ end }}

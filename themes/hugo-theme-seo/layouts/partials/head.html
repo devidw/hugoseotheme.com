@@ -1,0 +1,32 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+{{ if .Params.noindex }}
+<meta name="robots" content="noindex">
+{{ else }}
+<meta name="robots" content="index, follow">
+{{ end }}
+
+<title>
+{{ if .Title }}
+{{ .Title }}
+{{ else }}
+{{ .Site.Title }}
+{{ end }}
+</title>
+
+{{ if .Description }}
+<meta name="description" content="{{ .Description }}">
+{{ end }}
+
+{{ template "_internal/opengraph.html" . }}
+{{ template "_internal/schema.html" . }}
+{{ partial "structureddata/include.html" . }}
+
+{{ if .Site.Data.theme.favicon }}
+{{ partial "favicon.html" .Site.Data.theme.favicon }}
+{{ end }}
+
+<link rel="preconnect" href="//fonts.gstatic.com/">
+
+{{ partial "style.html" . }}

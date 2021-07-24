@@ -1,0 +1,9 @@
+= Hugo SEO Theme
+
+Because main site is osted on netlify and netlify doent allow multistage summodules (https://answers.netlify.com/t/building-a-repository-with-multistage-submodules/12604) we have to download sass theme into hugo theme and cant link it via submodule
+
+
+[source]
+----
+cp -r ../asciidoctor-skin-darksome/src ./assets/sass/asciidoctor-skin-darksome-src
+----
