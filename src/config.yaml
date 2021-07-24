@@ -1,8 +1,8 @@
 baseURL:       https://hugoseotheme.com
 languageCode:  en-us
 title:         Hugo SEO Theme
-# theme:         ['../../../hugo-seo-theme', hugo-theme-component-structured-data]
-theme:         ['hugo-seo-theme', hugo-theme-component-structured-data]
+# theme:         ['../../../hugo-theme-seo', hugo-theme-component-structured-data]
+theme:         ['hugo-theme-seo', hugo-theme-component-structured-data]
 
 disableKinds:  ['taxonomy', 'taxonomyTerm']
 
