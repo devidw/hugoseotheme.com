@@ -10,4 +10,6 @@ I wanted to do so too. So I created the _Hugo SEO Theme_, which is designed for 
 
 The best is, you can just drop the _Hugo SEO Theme_ to your themes directory and you are ready to rock.
 
-link:{{< relref "buy.adoc" >}}[Can't wait. Take me right to the theme].
+https://ko-fi.com/s/bd31274a6f[Can't wait. Take me right to the theme.]
+
+link:{{< relref "buy.adoc" >}}[Wait … first tell me something about the theme.]
