@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+  {{ if and (gt .WordCount 100 ) }}
+  <aside>
+    <input type="checkbox" id="toggle-toc">
+    <label for="toggle-toc"></label>
+
+    <div id="toggled-toc" class="toggled">
+      {{ .TableOfContents }}
+    </div>
+  </aside>
+  {{ end }}
+
+  <div class="content">
+    {{ .Content }}
+  </div>
+{{ end }}

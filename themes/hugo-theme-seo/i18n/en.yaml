@@ -1,0 +1,23 @@
+examples:
+  other: Examples
+
+pages:
+  other: Pages
+
+posts:
+  other: Posts
+
+about:
+  other: About
+
+notFound:
+  other: Page not found
+
+legal:
+  other: Legal
+
+privacy:
+  other: Privacy
+
+dragAsBookmark:
+  other: Drag me into your bookmarks bar

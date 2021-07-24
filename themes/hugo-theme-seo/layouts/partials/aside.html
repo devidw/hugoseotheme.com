@@ -1,0 +1,28 @@
+<header>
+  <div class="brand">
+    <a href="{{ .Site.BaseURL }}">
+      {{ if .Site.Data.theme.logo }}
+      <img src="{{ .Site.Data.theme.logo | absURL }}" alt="logo">
+      {{ else }}
+      {{ .Site.Title }}
+      {{ end }}
+    </a>
+  </div>
+</header>
+
+<nav>
+  <ul>
+    {{ range .Site.Menus.main.ByName }}
+    <li><a href="{{ .URL }}">{{ T .Identifier }}</a></li>
+    {{ end }}
+  </ul>
+</nav>
+
+
+<footer>
+  <ul>
+    {{ range .Site.Menus.footer.ByName }}
+    <li><a href="{{ .URL }}">{{ T .Identifier }}</a></li>
+    {{ end }}
+  </ul>
+</footer>

@@ -1,0 +1,30 @@
+a
+  text-underline-position: under
+
+  +focus
+
+  $states: 'link' $color-a-link, 'visited' $color-a-visited
+
+  @each $state, $color in $states
+    // @debug $state, $color
+    &:#{$state}
+      color: $color-body-txt
+      text-decoration-color: $color
+
+      &:hover
+        color: $color
+
+      &:active
+        color: darken($color, 10)
+
+      &:focus, &:focus-visible
+        color: $color
+        outline-color: transparentize($color, 0.5)
+        text-decoration: none
+
+  &[target=_blank]
+    &:after
+      display: inline-block
+      margin-left: .2rem
+      text-decoration: none
+      content: '➹'

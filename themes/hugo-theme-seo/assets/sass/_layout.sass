@@ -1,0 +1,45 @@
+body
+  & > main
+    width: 80%
+    margin-left: auto
+    margin-right: auto
+
+    & > article
+      $gap: 3rem
+
+      @media (min-width: 960px)
+        display: grid
+        grid-gap: $gap / 2
+        grid-template-rows: 1fr 1fr
+
+        &.list
+          grid-template-columns: calc(80% - #{$gap}) 20%
+
+        &.single
+          grid-template-columns: 20% calc(60% - #{$gap} * 2) 20%
+
+          & > nav#TableOfContents, & > aside
+            position: sticky
+            top: 1rem
+            height: 100vh
+
+          & > nav#TableOfContents
+            padding-right: $gap / 2
+            border-width: 0 0.1rem 0 0
+
+        & > nav#TableOfContents, & > aside
+          border-style: solid
+
+          // border-color: red
+          border-color: #0003
+
+        & > aside
+          padding-left: $gap / 2
+          border-width: 0 0 0 0.1rem
+
+        & > header
+          grid-column-start: 1
+          grid-column-end: 4
+          grid-row-start: 1
+          grid-row-end: 3
+          border-bottom: 0.1rem solid #0003
