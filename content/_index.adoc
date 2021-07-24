@@ -1,6 +1,6 @@
-// ---
-// title:
-// ---
+---
+title: SEO Theme for Hugo
+---
 
 You want your Hugo site to rank right on the top of Google?
 
@@ -10,4 +10,4 @@ I wanted to do so too. So I created the _Hugo SEO Theme_, which is designed for 
 
 The best is, you can just drop the _Hugo SEO Theme_ to your themes directory and you are ready to rock.
 
-link:/hugo-seo-theme/[Can't wait. Take me right to the theme].
+link:{{< relref "buy.adoc" >}}[Can't wait. Take me right to the theme].

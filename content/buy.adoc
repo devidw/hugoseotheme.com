@@ -1,0 +1,5 @@
+---
+title: Hugo SEO Theme
+slug: hugo-seo-theme
+description:
+---
