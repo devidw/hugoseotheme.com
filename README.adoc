@@ -3,3 +3,8 @@
 image:https://api.netlify.com/api/v1/badges/979ca213-dcf2-40c1-aee6-66eea5e9bb54/deploy-status[link="https://app.netlify.com/sites/hugoseotheme/deploys"]
 
 Get your very own copy of the https://ko-fi.com/s/bd31274a6f[Hugo SEO Theme] now.
+
+
+---
+
+The Organisation Profile Picture is a modified version of the Gopher from https://twitter.com/tenntenn[Takuya Ueda] published under the Creative Commons 3.0 Attributions license
