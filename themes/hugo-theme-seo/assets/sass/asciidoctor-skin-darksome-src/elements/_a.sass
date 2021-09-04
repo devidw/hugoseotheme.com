@@ -3,12 +3,12 @@ a
 
   +focus
 
-  $states: 'link' $color-a-link, 'visited' $color-a-visited
+  $states: 'link' $a-color-link, 'visited' $a-color-visited
 
   @each $state, $color in $states
     // @debug $state, $color
     &:#{$state}
-      color: $color-body-txt
+      color: $body-txt-color
       text-decoration-color: $color
 
       &:hover

@@ -1,9 +1,10 @@
 ---
-title: AsciiDoctor Example
-description: Demonstration of the look of content written in AsciiDoc.
+title: Asciidoctor
+description: Demonstration of the look of content written in Asciidoctor.
 noindex: true
 ---
 
+:icons: font
 :toc:
 :toclevels: 5
 

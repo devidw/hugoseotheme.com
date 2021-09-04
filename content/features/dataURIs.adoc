@@ -1,0 +1,37 @@
+---
+title: Data URI
+hidden: true
+---
+
+:toc:
+
+== Background
+The _Hugo SEO Theme_ transforms your images into a text string which can directly embedded into the html code. These strings are called data URIs. Durther more you can transform as many as your images into super fast data URIs by using the _Hugo SEO Theme's_ `{{</* dataURI "image.svg" */>}}` shortcode. This hugo shortcode is shipped to you by the _Hugo SEO Theme_ and you can use it right in your `.adoc` and `.md` files.
+
+The huge advantage of these technique is that we reduce the number of HTTP-Request, because the image data is embedded "inline", so the server doesn't have to fetch the external resources with more request, which makes your page even faster.
+
+== Codeless fun
+The _Hugo SEO Theme_ also keeps you away from the hassle to write your own go template logic to locate the file contents, get the right mime-type to generate the data uri etc.
+
+If you are interested in how the files are actually turned into a string, encoded to a data uri and the whole underlying process, feel free to check out your copy of the partial in your themes directory: `/layouts/partials/func/dataURI.go.html`.
+
+== Process
+Look, thats the process to turn your image into a super fast loading data URI asset.
+
+.the image source file
+image:{{< dataURI favicon_circle.svg >}}[circle, width=100px]
+
+.the file contents of the circle above
+{{< highlight xml >}}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500"><defs><style>.a{fill:#ff6961;}</style></defs><rect class="a" width="500" height="500" rx="250"/></svg>
+{{< / highlight >}}
+
+.the data uri generated form the svg
+{{< highlight plain >}}
+data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MDAgNTAwIj48ZGVmcz48c3R5bGU+LmF7ZmlsbDojZmY2OTYxO308L3N0eWxlPjwvZGVmcz48cmVjdCBjbGFzcz0iYSIgd2lkdGg9IjUwMCIgaGVpZ2h0PSI1MDAiIHJ4PSIyNTAiLz48L3N2Zz4=
+{{< / highlight >}}
+
+.the final html output
+{{< highlight html >}}
+<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MDAgNTAwIj48ZGVmcz48c3R5bGU+LmF7ZmlsbDojZmY2OTYxO308L3N0eWxlPjwvZGVmcz48cmVjdCBjbGFzcz0iYSIgd2lkdGg9IjUwMCIgaGVpZ2h0PSI1MDAiIHJ4PSIyNTAiLz48L3N2Zz4K">
+{{< / highlight >}}

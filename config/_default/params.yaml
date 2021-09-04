@@ -1,0 +1,32 @@
+author:          David Wolf
+titleSeparator:  —
+themeColor:      '#ff6961'
+
+icons:
+  favicon:       favicon.svg
+  touchIcon:     favicon.svg
+  maskIcon:      mask-icon.svg
+
+widgetAreas:
+  sidebarMobile:
+    area:
+      symbol:    '☰'
+      widgets:
+        - widget:  core/toc
+        - widget:  core/menu
+  headerTop:
+    widgets:
+      - widget:  core/breadcrumbs
+  # headerSub:
+  sidebarLeft:
+    widgets:
+      - widget:  core/menu
+  sidebarRight:
+    widgets:
+      - widget:  core/toc
+  footer:
+    widgets:
+      - widget:  share/editongithub
+        user:    hugoseotheme
+        repo:    hugoseotheme.com
+        branch:  master
