@@ -1,14 +1,14 @@
 @for $i from 1 through 6
   h#{$i}
     $wght: 800
-    font-family: $font-family-head
+    font-family: $h-font-family
     letter-spacing: $i * .5px
     word-spacing: 2px * ($i / 6)
     text-transform: uppercase
 
     @if $i == 1
-      color: $color-head-txt
+      color: $h-txt-color
       font-weight: $wght
     @else
-      color: darken($color-head-txt, $i * 2)
+      color: darken($h-txt-color, $i * 2)
       font-weight: $wght - $i * 50

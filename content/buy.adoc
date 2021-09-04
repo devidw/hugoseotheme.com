@@ -1,5 +1,54 @@
 ---
 title: Hugo SEO Theme
 slug: hugo-seo-theme
-description:
+description: The Hugo SEO Theme makes your Hugo site search engine friendly, so all your sites will rank above all other search results.
 ---
+:toc:
+:includedir: content/features
+:icons: font
+// include::{includedir}/dataURIs.adoc[]
+
+Read on when you want to push your Hugo site to the *top* rank on Google. SEO can be challenging sometimes - you know that - but with the _Hugo SEO Theme_ you've found the ideal solution to rank right on the hot places.
+
+
+== Technical SEO Features
+
+.Some of the technical SEO which come with the Hugo SEO Theme
+* `robots.txt`
+* `sitemap.xml`
+* `noindex`
+* OpenGraph
+// * Json LD
+
+// * no need for javascript
+// ** fast
+// * cross browser
+// * safe
+
+// * data uri
+// ** css
+// ** images
+// ** shirtcode
+// ** fonsts
+
+== Fully customisable
+By introducing a widget system in the Hugo SEO Theme you have the maximum possibilities to create your dream layout within a few super simple steps.
+
+NOTE: Have a look into the link:{{< ref "/docs/icons" >}}[Widgets Documentation] to sell all available widget areas as well as a full list of included widgets. Spoiler alert: there are a lot. 😄
+
+Furthermore you can extend the Themes Styling by adding your own `CSS|SCSS|SASS` rules to the theme.
+
+On top of that its super easy to configure details like the favicon of your site.
+
+NOTE: See the link:{{< ref "/docs/icons" >}}[Icon Documentation] for a detailed guide how to add your Favicon, Mask Icon as well as Apple Touch Icon
+
+
+== Great predesign
+The Theme also comes across with an awesome predesign of awesome looking styles for nearly all imaginable use cases from multistat links up to all kinds of form fields.
+
+NOTE: Check out the link:{{< ref "/demos" >}}[demos] to get an idea of the giant spectrum of prestyled elements
+
+
+You don't have to worry about responsive website design with the _Hugo SEO Theme_ - it's optimised for every device including mobile and desktop out of the box.
+
+And you know what, there's also support for dark and light themes provieded by the theme.

@@ -1,0 +1,5 @@
+---
+title: Demos
+---
+
+Here you find a list of examples how the _Hugo SEO Theme_ (which is also the source of this site) looks like.
