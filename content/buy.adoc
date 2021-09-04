@@ -7,8 +7,11 @@ description: The Hugo SEO Theme makes your Hugo site search engine friendly, so 
 :includedir: content/features
 :icons: font
 // include::{includedir}/dataURIs.adoc[]
+:url-buy: https://payhip.com/b/bh3Mn
 
 Read on when you want to push your Hugo site to the *top* rank on Google. SEO can be challenging sometimes - you know that - but with the _Hugo SEO Theme_ you've found the ideal solution to rank right on the hot places.
+
+<<liftoff>>
 
 
 == Technical SEO Features
@@ -31,6 +34,9 @@ Read on when you want to push your Hugo site to the *top* rank on Google. SEO ca
 // ** shirtcode
 // ** fonsts
 
+<<liftoff>>
+
+
 == Fully customisable
 By introducing a widget system in the Hugo SEO Theme you have the maximum possibilities to create your dream layout within a few super simple steps.
 
@@ -42,6 +48,7 @@ On top of that its super easy to configure details like the favicon of your site
 
 NOTE: See the link:{{< ref "/docs/icons" >}}[Icon Documentation] for a detailed guide how to add your Favicon, Mask Icon as well as Apple Touch Icon
 
+<<liftoff>>
 
 == Great predesign
 The Theme also comes with an awesome predesign of great looking styles for nearly all imaginable use cases from multistate links up to all kinds of form fields.
@@ -52,3 +59,14 @@ NOTE: Check out the link:{{< ref "/demos" >}}[demos] to get an idea of the giant
 You don't have to worry about responsive website design with the _Hugo SEO Theme_ - it's optimised for every device including mobile and desktop out of the box.
 
 And you know what, there's also support for dark and light themes provieded by the theme.
+
+
+[#liftoff]
+== Take me to the next level
+Now it's your turn to push your Hugo sites to a new dimension of success though *fully responsive*, *incredible fast* and *just beautiful* user experience, page performance and search engine ranking.
+
++++
+<a href="https://payhip.com/b/bh3Mn">
+  <button type="button">Push my Hugo sites!</button>
+</a>
++++

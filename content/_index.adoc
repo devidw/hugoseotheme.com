@@ -3,6 +3,8 @@ title: Hugo SEO Theme
 description: The perfect SEO solution to rank your Hugo site on top of Google and co.
 ---
 
+:url-buy: https://payhip.com/b/bh3Mn
+
 You want your Hugo site to rank right on the top of Google?
 
 I have great news for you, cause you can do so.
@@ -11,6 +13,6 @@ I wanted to do so too. So I created the _Hugo SEO Theme_, which is designed for 
 
 The best is, you can just drop the _Hugo SEO Theme_ to your themes directory and you are ready to rock.
 
-link:#[Can't wait. Take me right to the theme.]
+link:{url-buy}[Can't wait. Take me right to the theme.]
 
-link:{{< relref "buy.adoc" >}}[Wait … first tell me something about the theme.]
+link:{{< relref "buy.adoc" >}}[Well, wait … first tell me something about the theme.]
