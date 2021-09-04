@@ -1,8 +1,15 @@
 = https://hugoseotheme.com[SEO Theme for Hugo]
+David Wolf
+:url-buy: https://payhip.com/b/bh3Mn
 
 image:https://api.netlify.com/api/v1/badges/979ca213-dcf2-40c1-aee6-66eea5e9bb54/deploy-status[link="https://app.netlify.com/sites/hugoseotheme/deploys"]
 
-Get https://hugoseotheme.com[your very own copy] of the Hugo SEO Theme now.
+The _Hugo SEO Theme_ is _the_ SEO Theme to go with when you are going to build your awesomeness with Hugo.
+
+Get link:{url-buy}[your very own copy] of the Hugo SEO Theme now.
+
+image:./static/safari-screen.png[link={url-buy}]
+
 
 
 ---
