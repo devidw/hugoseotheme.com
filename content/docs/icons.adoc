@@ -1,0 +1,67 @@
+---
+title: Icons
+description: How you can add your custom favicons, including mask icon as well as Apples touch icon to your Hugo Site.
+date: 2021-08-03
+---
+
+:icons: font
+:toc:
+:source-highlighter:
+
+To add that little favicon to your Hugo site simply follow these steps:
+
+== 1. Drop your images
+Drop your favourite favicon into your projects `/static` directory, for example `favicon.svg`.
+
+== 2. Add Configuration
+In your `/config.(yaml|toml|json)` file: Add the `icon` option under your `params` and provide the paths of your icons as values. Your paths should be relativ to the `/static` directory. +
+Means if you put your files into the root of `/static` you  only have to provide your icons filenames (e.g. `favicon.svg`). That's it.
+
+.config.yaml example
+[source, yaml]
+----
+params:
+  icons:
+    <icon>: <path>
+----
+
+In case you organising your images in a subpath of the `/static` directory you should include its path in the value. For example if you just dropped your favicon into `/static/img` like `/static/img/favicon.svg` your declaration line should look like:
+
+.config.yaml example
+[source, yaml]
+----
+favicon: img/favicon.svg
+----
+
+CAUTION: Please don't prefix your paths with `/` or `./`, always let them start with the file or directory name.
+
+
+=== Favicon
+
+.Favicon example
+[source, yaml]
+----
+favicon: favicon.svg
+----
+
+
+=== Mask Icon
+
+.Mask Icon example
+[source, yaml]
+----
+maskIcon: maskicon.svg
+----
+
+
+=== Apple Touch Icon
+
+.Apple Touch Icon example
+[source, yaml]
+----
+touchIcon: touchicon.svg
+----
+
+
+== 3. Enjoy
+That's it, your done. All your icons will be transformed into data URIs by the _Hugo SEO Theme_ at your next built, so your browser won't need additional HTTP-Request to fetch your icons, cause their source is part of your page.

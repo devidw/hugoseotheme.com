@@ -1,3 +1,0 @@
-= Asciidoctor Skin Darksome
-
-:author: David Wolf <david@wolf.gdn>

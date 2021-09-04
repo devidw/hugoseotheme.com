@@ -1,0 +1,75 @@
+---
+title: Widgets
+description: About the widget system of the Hugo SEO Theme and how to use and extend it
+date: 2021-07-25
+author: David Wolf
+---
+
+:toc:
+
+A website can be pretty much described as a combination of blocks which most times display the same information. The _Hugo SEO Theme_ makes use of this fact and introduces *widgets* for Hugo.
+
+== Widgets
+[cols="25%,25%,50%"]
+|===
+2+| Widget | What it does
+
+| Menu
+| `menu`
+| Displays a navigation menu of your Hugo site which can be configured inside your config file
+
+| Section Menu
+| `menuSections`
+| Adds a section based menu to your Hugo site which collapsable areas for each root section,, which reveal its pages
+|===
+
+== Widget Areas
+An *widget area* is the area the widgets will be displayed on your awesome Hugo site. You can choose between the following:
+
+.Widget areas
+[cols="25%,25%,50%"]
+|===
+2+| Widget area | Where, how
+
+| Top Header
+| `headerTop`
+| At the top of the `<header></header>`
+
+| Sub Header
+| `headerSub`
+| At the end of the `<header></header>`
+
+| Left Sidebar
+| `sidebarLeft`
+| `<aside></aside>` on the left side of the main content
+
+| Right Sidebar
+| `sidebarRight`
+| `<aside></aside>` on the right side of the main content
+
+| Mobile Sidebar
+| `sidebarMobile`
+| `<aside></aside>` which is online visible on devices with small screen like smartphones (can be toggled to open and close)
+
+| Footer
+| `footer`
+| The pages `<footer></footer>`
+|===
+
+NOTE: Every widgets is available inside *every* widget area - no limitation - you have got the maximum freedom to build your dream layout.
+
+
+== Setup
+You can simply specific your widgets inside your projects configuration file by extending your `params` with the `widgetAreas` option.
+
+Under the `widgetAreas` you put a list of declarations of widget areas and their individual widgets.
+
+.Placeholder Widget configuration inside config.yaml
+[source, yaml]
+----
+----
+
+.Complete example of a widget configuration inside config.yaml
+[source, yaml]
+----
+----

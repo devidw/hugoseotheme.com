@@ -1,5 +1,0 @@
----
-title: Examples
----
-
-Here you find a list of examples how the link:/hugo-seo-theme/[Hugo SEO Theme] (which is also the source of this site) looks like.
