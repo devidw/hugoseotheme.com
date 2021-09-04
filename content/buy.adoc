@@ -7,7 +7,6 @@ description: The Hugo SEO Theme makes your Hugo site search engine friendly, so 
 :includedir: content/features
 :icons: font
 // include::{includedir}/dataURIs.adoc[]
-:url-buy: https://payhip.com/b/bh3Mn
 
 Read on when you want to push your Hugo site to the *top* rank on Google. SEO can be challenging sometimes - you know that - but with the _Hugo SEO Theme_ you've found the ideal solution to rank right on the hot places.
 
@@ -66,7 +65,7 @@ And you know what, there's also support for dark and light themes provieded by t
 Now it's your turn to push your Hugo sites to a new dimension of success though *fully responsive*, *incredible fast* and *just beautiful* user experience, page performance and search engine ranking.
 
 +++
-<a href="https://payhip.com/b/bh3Mn">
+<a href="https://payhip.com/buy?link=bh3Mn">
   <button type="button">Push my Hugo sites!</button>
 </a>
 +++
