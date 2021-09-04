@@ -44,7 +44,7 @@ NOTE: See the link:{{< ref "/docs/icons" >}}[Icon Documentation] for a detailed 
 
 
 == Great predesign
-The Theme also comes across with an awesome predesign of awesome looking styles for nearly all imaginable use cases from multistat links up to all kinds of form fields.
+The Theme also comes with an awesome predesign of great looking styles for nearly all imaginable use cases from multistate links up to all kinds of form fields.
 
 NOTE: Check out the link:{{< ref "/demos" >}}[demos] to get an idea of the giant spectrum of prestyled elements
 
