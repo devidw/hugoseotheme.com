@@ -1,0 +1,23 @@
+---
+title: Installation
+description: How you install the Hugo SEO Theme on your Hugo Site.
+date: 2021-09-04
+---
+
+:icons: font
+:toc:
+:source-highlighter:
+
+== 1. Add theme source to themes directory
+After you bought the _Hugo SEO Theme_ you got a download including the themes source code. Drop that folder into the `themes` directory of your project.
+
+Now `themes/hugo-theme-seo` relative to your project root should be a valid path on your system.
+
+== 2. Set theme in project configuration
+[source, toml]
+----
+theme = ["…", "hugo-theme-seo", "…"]
+----
+
+== 3. Configure theme `params` in project configuration
+Please Follow the link:{{< ref "/docs" >}}[documentation] for details about ways for theme configuration.
