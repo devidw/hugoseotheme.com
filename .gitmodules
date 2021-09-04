@@ -4,3 +4,6 @@
 [submodule "themes/hugo-theme-component-structured-data"]
 	path = themes/hugo-theme-component-structured-data
 	url = https://github.com/hugoseotheme/hugo-theme-component-structured-data
+[submodule "themes/hugo-theme-component-asciidoctor-skin"]
+	path = themes/hugo-theme-component-asciidoctor-skin
+	url = https://github.com/hugoseotheme/hugo-theme-component-asciidoctor-skin
