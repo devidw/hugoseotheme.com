@@ -13,11 +13,14 @@ After you bought the _Hugo SEO Theme_ you got a download including the themes so
 
 Now `themes/hugo-theme-seo` relative to your project root should be a valid path on your system.
 
-== 2. Set theme in project configuration
+== 2. Install dependencies
+The source of the _Hugo SEO Theme_ is split into logical components across different repositories on GitHub. You can use all of the theme components for free except the theme itself. So to put it all together you need the _Hugo SEO Theme_ and the _Hugo Theme Component: Asciidoctor Skin_. To install the last one please follow the https://github.com/hugoseotheme/hugo-theme-component-asciidoctor-skin[instructions] in the repository readme on GitHub. 
+
+== 3. Set theme in project configuration
 [source, toml]
 ----
 theme = ["…", "hugo-theme-seo", "…"]
 ----
 
-== 3. Configure theme `params` in project configuration
+== 4. Configure theme `params` in project configuration
 Please Follow the link:{{< ref "/docs" >}}[documentation] for details about ways for theme configuration.
