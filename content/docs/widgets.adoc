@@ -91,9 +91,18 @@ Under the `widgetAreas` you put a list of declarations of widget areas and their
 .Placeholder Widget configuration inside config.yaml
 [source, yaml]
 ----
+widgetAreas:
+  <widgetArea>:
+    widgets:
+      - widget: <widget>
+        <argumentName>: <argumentValue>
 ----
 
 .Complete example of a widget configuration inside config.yaml
 [source, yaml]
 ----
+widgetAreas:
+  headerTop:
+    widgets:
+      - widget:  core/breadcrumbs
 ----
