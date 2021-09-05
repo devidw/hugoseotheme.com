@@ -1,1 +1,2 @@
 Gemfile linguist-detectable=false
+*.adoc linguist-detectable=true
