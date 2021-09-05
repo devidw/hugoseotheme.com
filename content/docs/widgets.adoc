@@ -104,5 +104,5 @@ widgetAreas:
 widgetAreas:
   headerTop:
     widgets:
-      - widget:  core/breadcrumbs
+      - widget: core/breadcrumbs
 ----
