@@ -4,23 +4,47 @@ description: About the widget system of the Hugo SEO Theme and how to use and ex
 date: 2021-07-25
 author: David Wolf
 ---
-
 :toc:
+:experimental:
 
 A website can be pretty much described as a combination of blocks which most times display the same information. The _Hugo SEO Theme_ makes use of this fact and introduces *widgets* for Hugo.
 
-== Widgets
+== Core Widgets
 [cols="25%,25%,50%"]
 |===
 2+| Widget | What it does
 
 | Menu
-| `menu`
+| `core/menu`
 | Displays a navigation menu of your Hugo site which can be configured inside your config file
 
 | Section Menu
-| `menuSections`
+| `core/menuSections`
 | Adds a section based menu to your Hugo site which collapsable areas for each root section,, which reveal its pages
+
+| Breadcrumbs
+| `core/breadcrumbs`
+| Includes a breadcrumbs navigation with clickable crumbs
+
+| Table of contents
+| `core/toc`
+| Adds a table of contents with links to all the different sections on your pages
+|===
+
+== Sharing Widgets
+// [cols="25%,25%,50%"]
+|===
+2+| Widget | Arguments | What it does
+
+| Edit on GitHub
+| `share/editongithub`
+a|
+!===
+! `user` ! e.g. _hugoseotheme_
+! `repo` ! e.g. _hugoseotheme.com_
+! `branch` ! e.g. _master_
+!===
+| Adds a btn:[Edit on GitHub] button to your site
 |===
 
 == Widget Areas
