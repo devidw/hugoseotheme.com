@@ -52,7 +52,7 @@ NOTE: See the link:{{< ref "/docs/icons" >}}[Icon Documentation] for a detailed 
 == Great predesign
 The Theme also comes with an awesome predesign of great looking styles for nearly all imaginable use cases from multistate links up to all kinds of form fields.
 
-NOTE: Check out the link:{{< ref "/demos" >}}[demos] to get an idea of the giant spectrum of prestyled elements
+NOTE: Check out the link:{{< ref "/demos" >}}[demos] to get an idea of the giant spectrum of prestyled elements.
 
 
 You don't have to worry about responsive website design with the _Hugo SEO Theme_ - it's optimised for every device including mobile and desktop out of the box.
