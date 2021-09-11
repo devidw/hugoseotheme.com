@@ -1,0 +1,5 @@
+---
+title: Articles
+---
+
+Learn more about the greatest features of the _Hugo SEO Theme_.
