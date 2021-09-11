@@ -1,0 +1,20 @@
+---
+title: How to add heading anchors to your Hugo site
+description: Learn how to rate up your SEO score and SEO rankings by adding anchors and hashes to your Hugo website.
+slug: hugo-heading-anchors-and-hashes
+---
+
+// /articles/hugo-heading-anchors-and-hashes/
+
+Your articles are quite long for a better search engine ranking and you want to provide your visitors a way to directly link to sections on your pages?
+
+Link hashes are the technical feature to manage to do so, the part of the URL starting with a hashtag and link to given element on your page with the `id` of the name of the `hash`.
+
+[source, url]
+----
+https://hugoseotheme.com/some/awesome/posting/#hash
+----
+
+You also want to upgrade your Hugo website by adding heading anchors? The _Hugo SEO Theme_ automatically adds links to each headline of your articles and blog postings. Your visitors will be able to directly jump to sections to get your unique permalinks for direct linking. Want to lean more? Check out the link:{{< ref "/buy.adoc" >}}[_Hugo SEO Theme_].
+
+NOTE: Check out the link:{{< ref "/demos" >}}[demos] to get an idea of the look and feel of the heading anchors provided by the _Hugo SEO Theme_.
