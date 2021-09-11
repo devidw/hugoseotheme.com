@@ -1,7 +1,6 @@
 baseURL:          https://hugoseotheme.com
 languageCode:     en-us
 title:            Hugo SEO Theme
-<<<<<<< HEAD
 # theme:
 #   - ../../hugo-theme-seo
 #   - ../../hugo-theme-component-asciidoctor-skin
@@ -10,16 +9,6 @@ theme:
   - hugo-theme-seo
   - hugo-theme-component-asciidoctor-skin
   - hugo-theme-component-structured-data
-=======
-theme:
-  - ../../hugo-theme-seo
-  - ../../hugo-theme-component-asciidoctor-skin
-  - ../../hugo-theme-component-structured-data
-# theme:
-#   - hugo-theme-seo
-#   - hugo-theme-component-asciidoctor-skin
-#   - hugo-theme-component-structured-data
->>>>>>> 8c3355b02a0b53c0cfe9a195967ce50063d3fc71
 
 disableKinds:     [taxonomy, taxonomyTerm]
 
