@@ -3,10 +3,9 @@ title: Icons
 description: How you can add your custom favicons, including mask icon as well as Apples touch icon to your Hugo Site.
 date: 2021-08-03
 ---
-
-:icons: font
 :toc:
 :source-highlighter:
+:icons: font
 
 To add that little favicon to your Hugo site simply follow these steps:
 

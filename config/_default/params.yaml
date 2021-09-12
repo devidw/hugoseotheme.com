@@ -14,13 +14,17 @@ widgetAreas:
     widgets:
       - widget:  core/toc
       - widget:  core/menu
+      - widget:  core/meta
   headerTop:
     widgets:
       - widget:  core/breadcrumbs
   # headerSub:
+  #   widgets:
+  #     - widget:  core/meta
   sidebarLeft:
     widgets:
       - widget:  core/menu
+      - widget:  core/meta
   sidebarRight:
     widgets:
       - widget:  core/toc
@@ -30,3 +34,4 @@ widgetAreas:
         user:    hugoseotheme
         repo:    hugoseotheme.com
         branch:  master
+      - widget:  core/breadcrumbs
