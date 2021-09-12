@@ -2,6 +2,7 @@
 title: How to add heading anchors to your Hugo site
 description: Learn how to rate up your SEO score and SEO rankings by adding anchors and hashes to your Hugo website.
 slug: hugo-heading-anchors-and-hashes
+schemas: [BlogPosting]
 ---
 
 // /articles/hugo-heading-anchors-and-hashes/
