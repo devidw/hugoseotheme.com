@@ -13,6 +13,6 @@ We wanted to do so too. So We created the link:{{< relref "buy.adoc" >}}[__Hugo 
 
 The best is, you can just drop the link:{{< relref "buy.adoc" >}}[__Hugo SEO Theme__] to your themes directory and you are ready to rock.
 
-link:{url-buy}[Can't wait. Take me right to the theme.]
+=> link:{url-buy}[Can't wait. Take me right to the theme.]
 
-link:{{< relref "buy.adoc" >}}[Well, wait … first tell me something about the theme.]
+=> link:{{< relref "buy.adoc" >}}[Well, wait … first tell me something about the theme.]
