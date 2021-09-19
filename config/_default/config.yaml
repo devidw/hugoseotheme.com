@@ -24,8 +24,8 @@ menu:
   main:
     - name:       "The Theme"
       weight:     1
-      identifier: "hugo-seo-theme"
-      url:        "/hugo-seo-theme/"
+      identifier: "seo-theme-for-hugo"
+      url:        "/seo-theme-for-hugo/"
     - name:       "Demos"
       weight:     2
       identifier: "demos"
