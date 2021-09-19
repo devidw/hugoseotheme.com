@@ -4,4 +4,11 @@ hidden: true
 noindex: true
 ---
 
-dsdssd
+== Hoster
+* https://www.netlify.com/privacy/[Privacy Policy]
+
+== Chat
+* https://www.tawk.to/privacy-policy/[Privacy Policy]
+* https://www.tawk.to/data-protection/[data protection]
+* https://www.tawk.to/data-protection/gdpr-2/[GDPR]
+* https://www.tawk.to/how-we-store-your-data/[how we store your data]

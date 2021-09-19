@@ -1,0 +1,50 @@
+---
+title: CSS
+description: How you can add custom CSS/SCSS/SASS styles to your Hugo site using the Hugo SEO theme.
+date: 2021-09-19
+---
+:toc:
+:source-highlighter:
+:icons: font
+
+== Additional styles
+You can add additional custom styles to the Hugo theme via the `/assets/sass/_custom.sass` file.
+
+NOTE: If there is no `/assets/sass/_custom.sass` file in your project you can simply create it.
+
+=== Using SASS
+Simply add your SASS rules into `_custom.sass`.
+
+All your custom styles will be compiled from Sass to CSS and minified automatically by the Hugo SEO Theme for you, so you don't have to think of these kind of things anymore.
+
+=== Using SCSS or CSS
+If you not so familiar with SASS you can also write SCSS or just plain CSS.
+
+To do so you only have to import your `.scss` or `.css` file into `_custom.sass` by doing a SASS-import using the `@import` method.
+
+.Import schema
+[source, SASS]
+----
+@import <filename>
+----
+
+==== Example
+Say you want to include some CSS styles, which you life inside `/assets/sass/my-custom-styles.css`.
+
+To add them to the theme you add the following into `/assets/sass/_custom.sass`:
+
+[source, SASS]
+----
+@import my-custom-styles
+----
+
+IMPORTANT: Do not include the file extension like `.scss` or `.css` in the path of the `@import` rule.
+
+== Overriding variables
+You can override theme specific variables of the https://github.com/hugoseotheme/hugo-theme-component-asciidoctor-skin:[Asciidoctor Skin] in `/assets/sass/_variables.sass`.
+
+Variables are defined using the `!default`, so when you provide a value to one of the variables, the default value won't be assigned to the variable by the theme, instead your value will be used and applied.
+
+Here is the full list of available variables you can configure with custom values.
+
+{{< emgithub url="https://github.com/hugoseotheme/hugo-theme-component-asciidoctor-skin/blob/master/assets/asciidoctor-skin/_variables.scss" style="agate" >}}
