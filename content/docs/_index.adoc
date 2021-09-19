@@ -1,4 +1,5 @@
 ---
 title: Documentation
 description: The Hugo SEO Theme comes with batteries included so you really don't have to worry about wasting your valuable time by rewriting the same code again and again. Instead you only have to adjust the absolut minimum configuration and you're ready to rock.
+date: 2021-09-19
 ---

@@ -1,5 +1,7 @@
 ---
 title: Articles
+description: Read these articles if you want to rank your HUGO websites high quickly - you will learn how to increase your website traffic fast.
+date: 2021-09-19
 ---
 
 Learn more about the greatest features of the _Hugo SEO Theme_.

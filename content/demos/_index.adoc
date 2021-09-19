@@ -1,5 +1,7 @@
 ---
 title: Demos
+description: HUGO website examples using the SEO theme for HUGO.
+date: 2021-09-19
 ---
 
 Here you find a list of examples how the _Hugo SEO Theme_ (which is also the source of this site) looks like.

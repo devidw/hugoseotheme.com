@@ -3,7 +3,6 @@ title: HTML
 description: Demonstration of the look of content written in pure HTML as displayed by the Hugo SEO Theme.
 noindex: true
 ---
-
 :toc:
 
 == Input
