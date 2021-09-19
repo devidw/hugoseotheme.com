@@ -1,17 +1,17 @@
 ---
-title: Hugo SEO Theme
-description: The perfect SEO solution to rank your Hugo site on top of Google and co.
+title: SEO for HUGO websites - the right way …
+description: Learn about the best SEO theme available for HUGO to rank your Hugo site on top of Google and co. quickly.
+date: 2021-09-19
 ---
-
 :url-buy: https://payhip.com/b/bh3Mn
 
 You want your Hugo site to rank right on the top of Google?
 
-I have great news for you, cause you can do so.
+We have great news for you, cause you can do so.
 
-I wanted to do so too. So I created the _Hugo SEO Theme_, which is designed for high search engine rankings and ready to let your Hugo site become an supreme success.
+We wanted to do so too. So We created the link:{{< relref "buy.adoc" >}}[__Hugo SEO Theme__], which is designed for high search engine rankings and ready to let your Hugo site become an supreme success.
 
-The best is, you can just drop the _Hugo SEO Theme_ to your themes directory and you are ready to rock.
+The best is, you can just drop the link:{{< relref "buy.adoc" >}}[__Hugo SEO Theme__] to your themes directory and you are ready to rock.
 
 link:{url-buy}[Can't wait. Take me right to the theme.]
 

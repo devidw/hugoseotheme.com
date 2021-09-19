@@ -1,7 +1,8 @@
 ---
-title: Hugo SEO Theme
-slug: hugo-seo-theme
-description: The Hugo SEO Theme makes your Hugo site search engine friendly, so all your sites will rank above all other search results.
+title: 'SEO for HUGO websites: The perfect theme solution …'
+slug: seo-theme-for-hugo
+description: Rank higher with the HUGO theme for SEO to get found on the web easily. Read on to learn how to maximise your website's SEO score and rank quickly! 
+date: 2021-09-19
 ---
 :toc:
 :includedir: content/features
