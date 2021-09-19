@@ -1,27 +1,76 @@
 ---
 title: 'SEO for HUGO websites: The perfect theme solution …'
 slug: seo-theme-for-hugo
-description: Rank higher with the HUGO theme for SEO to get found on the web easily. Read on to learn how to maximise your website's SEO score and rank quickly! 
+description: Rank higher with the HUGO theme for SEO to get found on the web easily. Read on to learn how to maximise your website's SEO score and rank quickly!
 date: 2021-09-19
+lastmod: 2021-09-19
+schemas: [BlogPosting]
 ---
 :toc:
 :includedir: content/features
 :icons: font
+:source-highlighter:
 // include::{includedir}/dataURIs.adoc[]
 
-Read on when you want to push your Hugo site to the *top* rank on Google. SEO can be challenging sometimes - you know that - but with the _Hugo SEO Theme_ you've found the ideal solution to rank right on the hot places.
+Read on when you want to push your Hugo site to the *top* rankings on Google. SEO can be challenging sometimes - you know that - but with the _Hugo SEO Theme_ you've found the ideal solution to rank right on the really hot places.
 
 <<liftoff>>
 
 
 == Technical SEO Features
+Some of the many technical SEO which come with the Hugo SEO Theme are:
 
-.Some of the technical SEO which come with the Hugo SEO Theme
-* `robots.txt`
-* `sitemap.xml`
-* `noindex`
-* OpenGraph
-// * Json LD
+=== Noindex
+You can add `noindex: true` to pages that should better not be indexed by crawlers.
+
+Pages you set this option will get the following meta field to the `<head></head>` of your page:
+
+[source, html]
+----
+<meta name="robots" content="noindex">
+----
+
+=== Robots
+Tells crawlers to index all of you pages to get found on the web via the following snippet in `/robots.txt`:
+
+[source]
+----
+User-agent: *
+----
+
+Except for those you set `noindex` on for sure. These paths will get a `Disallow` statement.
+
+=== Sitemap
+Same goes for the `sitemap.xml`. Each of your pages will get a entry, except your marked excludes. So by that you really make sure Google is wasting no time following links which shouldn't be indexed at all.
+
+=== OpenGraph
+OpenGraph metadata will be added to your pages for social media previews on platforms like Facebook.
+
+[source, html]
+----
+<meta name="og:…" content="…">
+----
+
+=== Structured data
+Ranking on *#1* of Google is one thing, be featured in the rich results of a search is really what turns your page into true success.
+
+Google bots look for structured data in the JSON LD format to collect information for rich results.
+
+To provide Google with all needed meta data needed to get featured the _Hugo SEO Theme_ adds these structured data to your `<head></head>` using the https://github.com/hugoseotheme/hugo-theme-component-structured-data[Hugo Theme Component for Structured Data].
+
+The component is fully open source, you can see the entire source on GitHub and also add it to your own projects.
+
+
+== Speed
+Fast page load is _the_ thing in modern web development and one of the core keys to go higher and higher.
+
+The entire theme is designed to be faster then the speed of light.
+
+All CSS is embedded in one single `<style></style>` tag on each individual page. There is no extra HTTP-Request necessary to load the stylesheets.
+
+Even fonts are encoded into data URIs so there is to additional request needed to fetch them, too.
+
+The same goes for favicons, just a tiny base64 encoded data URI!
 
 // * no need for javascript
 // ** fast
@@ -50,15 +99,15 @@ NOTE: See the link:{{< ref "/docs/icons" >}}[Icon Documentation] for a detailed 
 
 <<liftoff>>
 
+
 == Great predesign
 The Theme also comes with an awesome predesign of great looking styles for nearly all imaginable use cases from multistate links up to all kinds of form fields.
 
 NOTE: Check out the link:{{< ref "/demos" >}}[demos] to get an idea of the giant spectrum of prestyled elements.
 
-
 You don't have to worry about responsive website design with the _Hugo SEO Theme_ - it's optimised for every device including mobile and desktop out of the box.
 
-And you know what, there's also support for dark and light themes provieded by the theme.
+And you know what, there's also support for dark and light themes provided by the theme.
 
 
 [#liftoff]
