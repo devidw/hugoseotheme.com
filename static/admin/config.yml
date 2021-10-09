@@ -1,30 +1,19 @@
 backend:
   name: git-gateway
   branch: master
+  
 media_folder: static/img
 public_folder: /img
+
 collections:
-  - name: 'articles'
-    label: 'Articles'
+  - name: 'article'
+    label: 'Article'
     folder: 'content/articles'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'docs'
-    label: 'Docs'
-    folder: 'content/docs'
-    create: true
     slug: '{{slug}}'
-    editor:
-      preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Last Modified Date', name: 'lastmod', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
