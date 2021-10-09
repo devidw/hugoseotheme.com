@@ -5,10 +5,19 @@ backend:
 media_folder: static/img
 public_folder: /img
 
+publish_mode: editorial_workflow
+
+site_url: https://hugoseotheme.com
+display_url: https://hugoseotheme.com
+logo_url: https://hugoseotheme.com/logo.svg
+
+show_preview_links: true
+
 collections:
   - name: 'article'
     label: 'Article'
     folder: 'content/articles'
+    preview_path: 'articles/{{slug}}'
     create: true
     slug: '{{slug}}'
     fields:
@@ -17,3 +26,9 @@ collections:
       - { label: 'Last Modified Date', name: 'lastmod', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: "Schemas"
+        name: "schemas"
+        widget: "select"
+        multiple: true
+        options: ["BlogPosting"]
+        default: ["BlogPosting"]
