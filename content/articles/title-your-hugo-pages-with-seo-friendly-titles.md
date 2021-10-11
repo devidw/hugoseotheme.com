@@ -9,11 +9,21 @@ schemas:
 date: 2021-10-11T10:41:19.467Z
 lastmod: 2021-10-11T10:41:19.484Z
 ---
+You think what the heck - why are they all speaking about theses titles in context of pushing your search engine optimazation?
+
+So here is why. The page's title is one of the most used piece of code fetched from services previewing your website.
+
+Look at 
+
+* your browsers
+
+  * tabs
+  * boomarks
+* Googles search results
+* WhatsApp messages including links
+
 <!--
-
-
-
-\== used by 3rd party
+## used by 3rd party
 
 * tabs
 * google
@@ -22,16 +32,15 @@ lastmod: 2021-10-11T10:41:19.484Z
 * bookmarks
 * shrotcodes
 
-\== html tittle
+## html tittle
 
-\== hugo usage
+## hugo usage
 
 * post
 * index
 
-\== separator
+## Title Separator
 
 * config
 * google donts
-
-\-->
+-->
