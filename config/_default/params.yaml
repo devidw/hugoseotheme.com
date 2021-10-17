@@ -23,6 +23,7 @@ widgetAreas:
   #     - widget:  core/meta
   sidebarLeft:
     widgets:
+      # - widget:  core/menusections
       - widget:  core/menu
       - widget:  core/meta
   sidebarRight:
