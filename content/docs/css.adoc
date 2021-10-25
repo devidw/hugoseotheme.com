@@ -41,7 +41,7 @@ To add them to the theme you add the following into `/assets/sass/_custom.sass`:
 IMPORTANT: Do not include the file extension like `.scss` or `.css` in the path of the `@import` rule.
 
 == Overriding variables
-You can override theme specific variables of the https://github.com/hugoseotheme/hugo-theme-component-asciidoctor-skin:[Asciidoctor Skin] in `/assets/sass/_variables.sass`.
+You can override theme specific variables of the https://github.com/hugoseotheme/hugo-theme-component-asciidoctor-skin[Asciidoctor Skin] in `/assets/sass/_variables.sass`.
 
 Variables are defined using the `!default`, so when you provide a value to one of the variables, the default value won't be assigned to the variable by the theme, instead your value will be used and applied.
 
